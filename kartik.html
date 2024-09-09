@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .right {
+            display: flex;
+            margin: 1px -9px 1px 2px;
+            padding: 1px 12px 1px 0px;
+            text-justify: right;
+            border-radius: 16px;
+            margin-right: 0px;
+            justify-content: space-around;
+            text-align: right 1px;
+            text-align: right;
+            justify-content: space-between;
+            margin: 4px -58px 1px 1px;
+            padding: 1px 2px 1px 1px;
+
+
+
+        }
+
+        .right h3 {
+            margin: 6px
+        }
+
+        .h3 {
+            justify-content: space-around;
+
+        }
+
+        .between {
+            display: block;
+            width: 1p;
+            text-align: center;
+            text-decoration: none;
+            margin: 13px -82px 1px 1px;
+            padding: -1px 4px 3px 3px;
+            justify-content: center;
+
+        }
+
+        .between a {
+            text-decoration: none;
+            margin: 4px;
+            color: black;
+            font-size: 20px;
+            font: bold;
+
+
+        }
+
+        .left {
+            margin: -6px 2px -9px -63px;
+            padding: 1px 2px 1px 1px;
+
+        }
+
+        .left h3 {
+            border-radius: 4px;
+            position: absolute;
+            z-index: 200;
+        }
+
+        .form-group {
+            justify-content: space-around;
+
+            text-align: center;
+            display: block;
+            margin: 140px 459px 78px 428px;
+            padding: 9px 1px 63px 3px;
+            border: 2px solid red;
+        }
+
+        .form input {
+            text-align: center;
+            font-size: 20px;
+            border-radius: 6PX;
+            border: 2px solid red;
+
+        }
+
+        .btn {
+            font-size: 17px;
+            margin: 1px 1px 2px 1px;
+            padding: 2px 31px 1px 39px;
+            border-radius: 8px;
+            border: 2px solid red;
+
+        }
+
+        body {
+            height: 2000px;
+        }
+
+        .imge {
+            height: 33px;
+            margin: 9px 46px -7px -42px;
+            padding: -4px 3px -7px -6px;
+            border-radius: 14px;
+            background-color: transparent;
+
+
+        }
+
+        .between a:hover {
+            color: yellow;
+            text-decoration: underline;
+            background-color: black;
+            font: bolder;
+            border-radius: 1px;
+
+        }
+
+        .left:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        .right h3:hover {
+            color: yellow;
+            background-color: black;
+            text-decoration: underline;
+        }
+
+        .img:hover {
+            color: yellow;
+        }
+
+        .fitnash:hover {
+            background-color: black;
+            color: yellow;
+            border-radius: 12px;
+            font-size: 23px;
+
+        }
+
+        .btn:hover {
+            color: yellow;
+            text-decoration: underline;
+            background-color: black;
+            font: bold;
+            border-radius: 0px;
+            border: 0px solid red;
+        }
+
+        html {
+            background-color: yellow;
+        }
+
+        section {
+            background-color: whitesmoke;
+            margin: -9PX;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="0054020e-175f-43aa-972e-1b1457147669">
+
+        <section class="gym">
+            <div class="left">
+                <img class="imge" src="gym.png" alt="">
+
+            </div>
+            <div class="between">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT US</a>
+                <a href=""> BLOG</a>
+
+            </div>
+            <div class="right">
+                <span>
+                    <h3 class="h3">Contus Now</h3>
+                </span>
+                <span>
+                    <h3 class="h3">Email Now</h3>
+
+            </div>
+
+        </section>
+        <div class="form-group">
+            <h2 class="fitnash"> JOIN GYM IN BIHARSHARIF </h2>
+            <div class="form" id="nam"> <input type="text" name="name" placeholder="Enter Your Name" required> </div>
+            <br>
+            <div class="form" id="age"><input type="text" name="gender" placeholder="Enter Your Gender" required></div>
+            <br>
+            <div class="form" id="loc"> <input type="text" name="message" placeholder="Enter Your Locality" required>
+            </div><br>
+            <div class="form" id="gen"> <input type="email" name="email" placeholder="Enter Your Gmail" required></div>
+            <br>
+            <div class="form" id="ema"> <input type="text" name="text" placeholder="Password" required></div><br>
+            <input class="btn" id="sub" type="submit" value="SUBMIT">
+            <input class="btn" id="res" type="reset" value="RESAT">
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
